@@ -10,13 +10,14 @@
       - p, a (href, target), h1 (etc), img (src, alt, height, width), ul/ol + li, select + option, form, input, textarea, label, button, div
       - head - meta, title, link
 - css
-  - setup (style tags vs file)
+  - setup (directly in style tags vs link file)
   - comments
   - selectors
     - tag, id, class
   - properties
     - colors
     - backgrounds
+    - css function - gradients
     - opacity
     - box model
       - borders
@@ -44,22 +45,26 @@
     - display: flex
     - display: grid? (i think i should mention it and leave it out)
     - css functions
-      - calc
-      - gradients
+      - math fxns - calc, max, min
 
   - dev tools elements and styles
  
   - icons
   - animations
   - combinator (div p, div > p)
-  - nav bar = list of links
+  - semantic elements
+    - header, main, footer, section, nav
+  - header
+    - nav bar = list of links
+    - position relative/absolute/sticky/...
   - pseudo selectors
+    - nth child
+    - ...
   - z-index
   - overflow
-  - position relative/absolute/sticky/...
-  - responsive
   - specificity ('cascading')
     - inline styles
+  - responsive
+  - css variables
 
-- semantic elements
-  - header, main, footer, section, nav
+
