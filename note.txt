@@ -20,9 +20,10 @@
     - css function - gradients
     - opacity
     - box model
+      - padding
       - borders
       - margin
-      - padding
+    - dev tools elements and styles
     - display: block vs inline
     - text
       - color
@@ -46,15 +47,13 @@
     - display: grid? (i think i should mention it and leave it out)
     - css functions
       - math fxns - calc, max, min
-
-  - dev tools elements and styles
  
   - icons
   - animations
   - combinator (div p, div > p)
   - semantic elements
     - header, main, footer, section, nav
-  - header
+  - style header / contents of header
     - nav bar = list of links
     - position relative/absolute/sticky/...
   - pseudo selectors
@@ -63,8 +62,5 @@
   - z-index
   - overflow
   - specificity ('cascading')
-    - inline styles
-  - responsive
   - css variables
-
-
+  - responsive
