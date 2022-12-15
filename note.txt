@@ -1,0 +1,65 @@
+- html
+  - setup
+  - syntax
+  - terminology
+      - tag
+      - element
+      - attributes
+  - tags
+      - comments
+      - p, a (href, target), h1 (etc), img (src, alt, height, width), ul/ol + li, select + option, form, input, textarea, label, button, div
+      - head - meta, title, link
+- css
+  - setup (style tags vs file)
+  - comments
+  - selectors
+    - tag, id, class
+  - properties
+    - colors
+    - backgrounds
+    - opacity
+    - box model
+      - borders
+      - margin
+      - padding
+    - display: block vs inline
+    - text
+      - color
+      - background color
+      - font - family, style, size, weight
+      - alignment
+      - decoration
+    - styling links
+    - styling lists
+    - styling dropdowns
+    - sizes
+      - size units - px, vh, vw, %
+      - max-width
+    - display none vs visibility
+    - shadows
+      - box-shadow
+      - text-shadow
+  
+  - divs and spacing
+    - display: flex
+    - display: grid? (i think i should mention it and leave it out)
+    - css functions
+      - calc
+      - gradients
+
+  - dev tools elements and styles
+ 
+  - icons
+  - animations
+  - combinator (div p, div > p)
+  - nav bar = list of links
+  - pseudo selectors
+  - z-index
+  - overflow
+  - position relative/absolute/sticky/...
+  - responsive
+  - specificity ('cascading')
+    - inline styles
+
+- semantic elements
+  - header, main, footer, section, nav
