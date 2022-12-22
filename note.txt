@@ -10,57 +10,89 @@
       - p, a (href, target), h1 (etc), img (src, alt, height, width), ul/ol + li, select + option, form, input, textarea, label, button, div
       - head - meta, title, link
 - css
-  - setup (directly in style tags vs link file)
-  - comments
-  - selectors
-    - tag, id, class
+  - mindset
+    - there are MANY ways to achieve the same thing
+    - if your code works and is readable for others, you're good
+    - JS is WAY more important than CSS
+    - milestone - move on when can recreate a UI (or build your own)
+    - i'm going to teach you the CSS that you can build anything with
+    - you're handed designs
+  - x - setup (directly in style tags vs link file)
+  - x - comments
+  - x - selectors
+    - x - tag, id, class
   - properties
-    - colors
-    - backgrounds
-    - css function - gradients
-    - opacity
-    - box model
-      - padding
-      - borders
-      - margin
-    - dev tools elements and styles
-    - display: block vs inline
-    - text
-      - color
-      - background color
-      - font - family, style, size, weight
-      - alignment
-      - decoration
-    - styling links
-    - styling lists
+    - x - colors & opacity
+    - x - backgrounds
+    - x - css function - gradients
+    - x - text
+      - x - color
+      - x - background color
+      - x - decoration
+      - x - shadow
+      - x - font - family, style, size, weight
+    - x - dev tools elements and styles
+    - x - border
+    - x - box model
+      - x - padding
+      - x - borders
+      - x - margin
+    - x - styling links
+      - x - explained links vs buttons
+    - x - styling lists
+    - x - side note - tables
+      - x - i don't use, but if you wanted one, here's how you'd look up how to do it - google -> w3schools
+    - x - other selector tricks
+      - x - commas, spaces between selectors
+    - x - specificity
+    - x - display
+      - x - block, inline, none (with js can show)
+      - x - mention flex and grid later
+    - x - text alignment
+    - x - divs and flexbox
+      - x - flex-direction, jcc, aic
     - styling dropdowns
-    - sizes
-      - size units - px, vh, vw, %
-      - max-width
-    - display none vs visibility
-    - shadows
-      - box-shadow
-      - text-shadow
-  
-  - divs and spacing
-    - display: flex
-    - display: grid? (i think i should mention it and leave it out)
-    - css functions
-      - math fxns - calc, max, min
- 
-  - icons
-  - animations
-  - combinator (div p, div > p)
+    - styling forms
+    - box-shadow
+  - recap how much we've learned already!
   - semantic elements
     - header, main, footer, section, nav
   - style header / contents of header
     - nav bar = list of links
+    - styling dropdowns (w3school article)
     - position relative/absolute/sticky/...
+  - multiple pages
+  - tooltip
+  - icons
+  - animations
+  - BEM
   - pseudo selectors
-    - nth child
+    - nth child (show how to style sections)
     - ...
+  - rgb() can do opacity
   - z-index
   - overflow
-  - specificity ('cascading')
   - css variables
+  - combinators (div > p, ...)
+  - box-sizing: border-box in * selector
   - responsive
+    - size units - px, vh, vw, %
+    - max-width
+      - css functions - max, min
+    - media queries
+      - screen sizes (px for diff devices)
+    - other flex properties (flex-grow, etc)
+  - browser support and testing on all browsers
+  - mention bootstrap / tailwind, sass, material ui
+  - mention display grid
+
+- anchor tag - scroll to section
+- anchor tag - route to another page
+
+- go over how insignificant the other html elements are
+
+- js
+  - display none / visibility
+  - clickable div vs button - https://benmyers.dev/blog/clickable-divs/
+    - talks about tabindex, focus, navigate w/ keyboard for impaired
+    - how to style button to look same on all browsers - https://css-tricks.com/overriding-default-button-styles/

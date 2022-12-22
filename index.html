@@ -5,114 +5,147 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Cool Website</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Chivo Mono"
+    />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>Hi 👋 I'm Jared Weiss</h1>
+    <div class="header">
+      <h1>Jared Weiss</h1>
+      <div class="links">
+        <a href="https://www.google.com">About me</a>
+        <a href="https://www.google.com">My Portfolio</a>
+        <a href="https://www.google.com">Contact me</a>
+      </div>
+    </div>
+    <div class="content">
+      <div class="section" id="intro-section">
+        <h1>Hi 👋 I'm Jared Weiss</h1>
+        <p>
+          I'm the best developer you've ever seen. If you don't hire me, you're
+          crazy!
+        </p>
+        <button>Download My Resume</button>
+      </div>
+      <div class="section">
+        <h2>About me</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
+          aspernatur neque ea aperiam repellendus sunt vitae itaque illum
+          suscipit debitis facilis expedita iste atque corrupti, officia magni
+          dicta quibusdam soluta.
+        </p>
+        <p class="important-text">
+          BOLD PARAGRAPH Lorem ipsum dolor sit amet consectetur adipisicing
+          elit. Sint aspernatur neque ea aperiam repellendus sunt vitae itaque
+          illum suscipit debitis facilis expedita iste atque corrupti, officia
+          magni dicta quibusdam soluta.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
+          aspernatur neque ea aperiam repellendus sunt vitae itaque illum
+          suscipit debitis facilis expedita iste atque corrupti, officia magni
+          dicta quibusdam soluta.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
+          aspernatur neque ea aperiam repellendus sunt vitae itaque illum
+          suscipit debitis facilis expedita iste atque corrupti, officia magni
+          dicta quibusdam soluta.
+        </p>
+      </div>
 
-    <a href="https://www.google.com">About me</a>
-    <a href="https://www.google.com">My Portfolio</a>
-    <a href="https://www.google.com">Contact me</a>
+      <div class="section">
+        <h3>My Tech Stack</h3>
+        <img src="html.png" alt="Photo of dog" height="100" />
+        <img src="css.png" alt="Photo of dog" height="100" />
+        <img src="js.png" alt="Photo of dog" height="100" />
+      </div>
 
-    <p>
-      I'm the best developer you've ever seen. If you don't hire me, you're
-      crazy!
-    </p>
+      <div class="section">
+        <h3>My Skills and Qualities</h3>
+        <ul class="special-ul">
+          <li>Amazing designer</li>
+          <li class="important-text">Great problem solver - BOLD</li>
+          <li class="important-text">Quick learner</li>
+          <li>Hard worker</li>
+        </ul>
+      </div>
 
-    <button>Download My Resume</button>
+      <div class="section">
+        <h2>Contact Me</h2>
 
-    <h2>About me</h2>
-
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint aspernatur
-      neque ea aperiam repellendus sunt vitae itaque illum suscipit debitis
-      facilis expedita iste atque corrupti, officia magni dicta quibusdam
-      soluta.
-    </p>
-
-    <h3>My Tech Stack</h3>
-
-    <img src="html.png" alt="Photo of dog" height="100" />
-    <img src="css.png" alt="Photo of dog" height="100" />
-    <img src="js.png" alt="Photo of dog" height="100" />
-
-    <h3>My Skills and Qualities</h3>
-
-    <ul>
-      <li>Amazing designer</li>
-      <li>Great problem solver</li>
-      <li>Quick learner</li>
-      <li>Hard worker</li>
-    </ul>
-
-    <h2>Contact Me</h2>
-
-    <form action="">
-      <label for="date">Today's date:</label>
-      <input type="date" id="date" /> <br /><br />
-      <label for="name-input">Full name:</label>
-      <input type="text" id="name-input" />
-      <br />
-      <br />
-      <label for="email-input">Email:</label>
-      <input type="email" id="email-input" />
-      <br />
-      <br />
-      <label for="phone-input">Phone:</label>
-      <input type="phone" id="phone-input" />
-      <br />
-      <br />
-      <label for="select">Where are you from?</label>
-      <select>
-        <option>Atlanta</option>
-        <option>Boston</option>
-        <option>Chicago</option>
-        <option>Detroit</option>
-        <option>Los Angeles</option>
-        <option>Miami</option>
-        <option>New York</option>
-        <option>Phoenix</option>
-      </select>
-      <br />
-      <br />
-      <p>What qualities are you looking for?</p>
-      <input type="checkbox" id="checkbox-1" />
-      <label for="checkbox-1">Amazing designer</label>
-      <br />
-      <input type="checkbox" id="checkbox-2" />
-      <label for="checkbox-2">Great problem solver</label>
-      <br />
-      <input type="checkbox" id="checkbox-3" />
-      <label for="checkbox-3">Quick learner</label>
-      <br />
-      <input type="checkbox" id="checkbox-4" />
-      <label for="checkbox-4">Hard worker</label>
-      <br />
-      <br />
-      <p>Which is the most important?</p>
-      <input type="radio" id="radio-1" name="most-important-quality" />
-      <label for="radio-1">Amazing designer</label>
-      <br />
-      <input type="radio" id="radio-2" name="most-important-quality" />
-      <label for="radio-2">Great problem solver</label>
-      <br />
-      <input type="radio" id="radio-3" name="most-important-quality" />
-      <label for="radio-3">Quick learner</label>
-      <br />
-      <input type="radio" id="radio-4" name="most-important-quality" />
-      <label for="radio-4">Hard worker</label>
-      <br />
-      <br />
-      <label for="range">How much do you want to hire me?</label>
-      <input type="range" id="range" />
-      <br />
-      <br />
-      <label for="textarea">Please explain:</label>
-      <br />
-      <textarea cols="40" rows="10" id="textarea"></textarea>
-      <br /><br />
-      <input type="reset" value="Reset" />
-      <br /><br />
-      <input type="button" value="Submit" />
-    </form>
+        <form action="">
+          <label for="date">Today's date:</label>
+          <input type="date" id="date" /> <br /><br />
+          <label for="name-input">Full name:</label>
+          <input type="text" id="name-input" />
+          <br />
+          <br />
+          <label for="email-input">Email:</label>
+          <input type="email" id="email-input" />
+          <br />
+          <br />
+          <label for="phone-input">Phone:</label>
+          <input type="phone" id="phone-input" />
+          <br />
+          <br />
+          <label for="select">Where are you from?</label>
+          <select>
+            <option>Atlanta</option>
+            <option>Boston</option>
+            <option>Chicago</option>
+            <option>Detroit</option>
+            <option>Los Angeles</option>
+            <option>Miami</option>
+            <option>New York</option>
+            <option>Phoenix</option>
+          </select>
+          <br />
+          <br />
+          <p>What qualities are you looking for?</p>
+          <input type="checkbox" id="checkbox-1" />
+          <label for="checkbox-1">Amazing designer</label>
+          <br />
+          <input type="checkbox" id="checkbox-2" />
+          <label for="checkbox-2">Great problem solver</label>
+          <br />
+          <input type="checkbox" id="checkbox-3" />
+          <label for="checkbox-3">Quick learner</label>
+          <br />
+          <input type="checkbox" id="checkbox-4" />
+          <label for="checkbox-4">Hard worker</label>
+          <br />
+          <br />
+          <p>Which is the most important?</p>
+          <input type="radio" id="radio-1" name="most-important-quality" />
+          <label for="radio-1">Amazing designer</label>
+          <br />
+          <input type="radio" id="radio-2" name="most-important-quality" />
+          <label for="radio-2">Great problem solver</label>
+          <br />
+          <input type="radio" id="radio-3" name="most-important-quality" />
+          <label for="radio-3">Quick learner</label>
+          <br />
+          <input type="radio" id="radio-4" name="most-important-quality" />
+          <label for="radio-4">Hard worker</label>
+          <br />
+          <br />
+          <label for="range">How much do you want to hire me?</label>
+          <input type="range" id="range" />
+          <br />
+          <br />
+          <label for="textarea">Please explain:</label>
+          <br />
+          <textarea cols="40" rows="10" id="textarea"></textarea>
+          <br /><br />
+          <input type="reset" value="Reset" />
+          <br /><br />
+          <input type="button" value="Submit" />
+        </form>
+      </div>
+    </div>
   </body>
 </html>
