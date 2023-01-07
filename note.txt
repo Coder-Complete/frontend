@@ -51,48 +51,79 @@
     - x - text alignment
     - x - divs and flexbox
       - x - flex-direction, jcc, aic
-    - styling dropdowns
-    - styling forms
-    - box-shadow
-  - recap how much we've learned already!
-  - semantic elements
-    - header, main, footer, section, nav
-  - style header / contents of header
-    - nav bar = list of links
-    - styling dropdowns (w3school article)
-    - position relative/absolute/sticky/...
-  - multiple pages
-  - tooltip
-  - icons
+  - x - style form
+  - make the site look good!
+    - x - contact me opens email
+    - x - open resume button opens pdf in new tabindex
+    - x - remove form
+    - x - add undraw images
+    - x - css variables
+    - x - add icons for linkedin, github, email, resume (pdf logo)
+      - x - fontawesome / google icons
+  - x - recap how much we've learned already!
+  - x - semantic elements
+    - x - header, main, footer, section, nav
+  - x - header 
+    - x - position absolute & relative
+    - x - position relative/absolute/sticky/...
+  - x - browser support and testing on all browsers
+  - x - overflow (scroll)
+  - x - z-index
+  - x - styling dropdowns
+  - x - box-shadow
+  - x - multiple pages
+  - x - tooltip
+  - x - BEM
+  - x - pseudo selectors
+    - x - nth child (show how to style sections)
+    - x - ...
+  - x - combinators (div > p, ...)
+  - x - accessibility
+    - x - tabindex
+  - x - box-sizing: border-box in * selector
+  - x - responsive
+    - x - size units - px vs %
+    - x - media queries
+      - x - screen sizes (px for diff devices)
+      - to do:
+        - x - replace nav with hamburger menu
+        - x - make tech stack imgs wrap
+    - x - max-width
+      - x - to do: make everything less wide
+    - x - other flex properties (flex-grow, etc)
   - animations
-  - BEM
-  - pseudo selectors
-    - nth child (show how to style sections)
-    - ...
-  - rgb() can do opacity
-  - z-index
-  - overflow
-  - css variables
-  - combinators (div > p, ...)
-  - box-sizing: border-box in * selector
-  - responsive
-    - size units - px, vh, vw, %
-    - max-width
-      - css functions - max, min
-    - media queries
-      - screen sizes (px for diff devices)
-    - other flex properties (flex-grow, etc)
-  - browser support and testing on all browsers
-  - mention bootstrap / tailwind, sass, material ui
+    - x - tech stack items (on hover, lower opacity and transform scale 0.9)
+    - x - image of myself (transform scale 0 -> 1.1 -> 1, delay 1s, backwards)
+    - x - items slide up initially (fade up - opacity 0, transform translateY(40px) -> opacity 1, transform translateY(0), delay, backwards)
+    - x - wave (transofrm rotate(0) -> transform rotate(30deg) -> rotate(0), infinite)
+      - x - can't rotate inline els, has to be inline-block
+    - x - links (:after content, w/ height and background color and position absolute, 0 -> 100% width transition ease)
+
+    - projects (:before, cover w/ black & opacity & higher z-index, img scales to 1.07, text and links are elements, they go from 0 to 1 opacity, they also slide up from transformY(100%) to transformY(50%))
+      - i'd probably rather make separate el for all this and position it on top of project w/ opacity 0 initially (rather than using :before)
+
+    - "go to top" pops out to right of my name in footer (transfrom translateX(60px), )
+
+  - other small changes
+    - x - add circle photo of myself above "hi..."
+    - contact button has background color
+    - footer jared weiss takes back to top
+    - hover for links under intro (change color?)
+    - maybe put github, etc links in footer instead of # links, b/c can go to top w/ my name
+    - suggest that if they want, they can design a cool logo for themselves and put instead of name
+
+
+  - go through these how-to's - https://www.w3schools.com/howto
+  - mention frameworks (bootstrap - more about components / tailwind - more like css framework), sass, material ui
   - mention display grid
-
-- anchor tag - scroll to section
-- anchor tag - route to another page
-
-- go over how insignificant the other html elements are
 
 - js
   - display none / visibility
   - clickable div vs button - https://benmyers.dev/blog/clickable-divs/
     - talks about tabindex, focus, navigate w/ keyboard for impaired
     - how to style button to look same on all browsers - https://css-tricks.com/overriding-default-button-styles/
+
+
+    - change intro text to "I'm a frontend (change to full-stack) software engineer with a strong passion for building responsive and performant web applications with great user experiences that positively impacts the world.
+
+    - move wave to end
