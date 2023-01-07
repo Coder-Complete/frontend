@@ -99,18 +99,18 @@
       - x - can't rotate inline els, has to be inline-block
     - x - links (:after content, w/ height and background color and position absolute, 0 -> 100% width transition ease)
 
-    - projects (:before, cover w/ black & opacity & higher z-index, img scales to 1.07, text and links are elements, they go from 0 to 1 opacity, they also slide up from transformY(100%) to transformY(50%))
-      - i'd probably rather make separate el for all this and position it on top of project w/ opacity 0 initially (rather than using :before)
+    - x - projects (:before, cover w/ black & opacity & higher z-index, img scales to 1.07, text and links are elements, they go from 0 to 1 opacity, they also slide up from transformY(100%) to transformY(50%))
+      - x - i'd probably rather make separate el for all this and position it on top of project w/ opacity 0 initially (rather than using :before)
 
-    - "go to top" pops out to right of my name in footer (transfrom translateX(60px), )
+    - x - "go to top" pops out to right of my name in footer (transfrom translateX(60px), )
 
   - other small changes
     - x - add circle photo of myself above "hi..."
-    - contact button has background color
-    - footer jared weiss takes back to top
-    - hover for links under intro (change color?)
-    - maybe put github, etc links in footer instead of # links, b/c can go to top w/ my name
-    - suggest that if they want, they can design a cool logo for themselves and put instead of name
+    - x - contact button has background color
+    - x - footer jared weiss takes back to top
+    - x - hover for links under intro (change color?)
+    - x - maybe put github, etc links in footer instead of # links, b/c can go to top w/ my name
+    - x - suggest that if they want, they can design a cool logo for themselves and put instead of name
 
 
   - go through these how-to's - https://www.w3schools.com/howto
