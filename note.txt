@@ -113,9 +113,9 @@
     - x - suggest that if they want, they can design a cool logo for themselves and put instead of name
 
 
-  - go through these how-to's - https://www.w3schools.com/howto
-  - mention frameworks (bootstrap - more about components / tailwind - more like css framework), sass, material ui
-  - mention display grid
+  - x - go through these how-to's - https://www.w3schools.com/howto
+  - x - mention frameworks (bootstrap - more about components / tailwind - more like css framework), sass, material ui
+  - x - mention display grid
 
 - js
   - display none / visibility
