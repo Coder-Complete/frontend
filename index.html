@@ -5,114 +5,172 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Cool Website</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Chivo Mono"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/9c6cc11c28.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
-    <h1>Hi 👋 I'm Jared Weiss</h1>
+    <header>
+      <div class="header-content max-width">
+        <a href="#"><h1 class="blue-text my-name">Jared Weiss</h1></a>
+        <nav>
+          <a class="link-animation" href="#about-me">About me</a>
+          <a class="link-animation" href="#projects">Projects</a>
+          <a class="link-animation" href="blog.html">Blog</a>
+          <a class="contact-me" href="mailto:jared@techsweet.io">Contact me</a>
+          <a class="hamburger" href="">
+            <i class="fa-solid fa-bars"></i>
+          </a>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="top-section">
+        <div class="me-image-wrapper">
+          <img src="me.jpeg" alt="" />
+        </div>
+        <h1 class="top-section__header text-align-center">
+          Hi <span class="wave">👋</span> I'm
+          <span class="blue-text">Jared Weiss</span>
+        </h1>
+        <p class="top-section__subheader bigger-text">
+          I'm the best developer you've ever seen. If you don't hire me, you're
+          crazy!
+        </p>
+        <div class="top-section__links">
+          <a href="https://www.linkedin.com/in/jaredmweiss" target="_blank">
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+          <a href="https://github.com/jmw1493" target="_blank">
+            <i class="fa-brands fa-github"></i>
+          </a>
+          <a href="resume.pdf" target="_blank">
+            <i class="fa-solid fa-file-lines"></i>
+          </a>
+        </div>
+      </section>
+      <section id="about-me" class="adjust-offset">
+        <h2>About me</h2>
+        <div class="max-width">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
+            aspernatur neque ea aperiam repellendus sunt vitae itaque illum
+            suscipit debitis facilis expedita iste atque corrupti, officia magni
+            dicta quibusdam soluta.
+          </p>
+          <p class="important-text">
+            BOLD PARAGRAPH Lorem ipsum dolor sit amet consectetur adipisicing
+            elit. Sint aspernatur neque ea aperiam repellendus sunt vitae itaque
+            illum suscipit debitis facilis expedita iste atque corrupti, officia
+            magni dicta quibusdam soluta.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
+            aspernatur neque ea aperiam repellendus sunt vitae itaque illum
+            suscipit debitis facilis expedita iste atque corrupti, officia magni
+            dicta quibusdam soluta.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
+            aspernatur neque ea aperiam repellendus sunt vitae itaque illum
+            suscipit debitis facilis expedita iste atque corrupti, officia magni
+            dicta quibusdam soluta.
+          </p>
+        </div>
+        <img class="proud-coder" src="proud-coder.svg" alt="" />
+      </section>
 
-    <a href="https://www.google.com">About me</a>
-    <a href="https://www.google.com">My Portfolio</a>
-    <a href="https://www.google.com">Contact me</a>
+      <section id="tech-stack">
+        <h3>My Tech Stack</h3>
+        <div class="tech-stack-items">
+          <div class="tech-stack-item">
+            <img src="html.png" alt="Photo of dog" height="100" />
+            <div class="tooltip-text">HTML5</div>
+          </div>
+          <div class="tech-stack-item">
+            <img src="css.png" alt="Photo of dog" height="100" />
+            <div class="tooltip-text">CSS3</div>
+          </div>
+          <div class="tech-stack-item">
+            <img src="js.png" alt="Photo of dog" height="100" />
+            <div class="tooltip-text">JavaScript</div>
+          </div>
+          <div class="tech-stack-item">
+            <img src="html.png" alt="Photo of dog" height="100" />
+            <div class="tooltip-text">HTML5</div>
+          </div>
+          <div class="tech-stack-item">
+            <img src="css.png" alt="Photo of dog" height="100" />
+            <div class="tooltip-text">CSS3</div>
+          </div>
+          <div class="tech-stack-item">
+            <img src="js.png" alt="Photo of dog" height="100" />
+            <div class="tooltip-text">JavaScript</div>
+          </div>
+        </div>
+      </section>
 
-    <p>
-      I'm the best developer you've ever seen. If you don't hire me, you're
-      crazy!
-    </p>
-
-    <button>Download My Resume</button>
-
-    <h2>About me</h2>
-
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint aspernatur
-      neque ea aperiam repellendus sunt vitae itaque illum suscipit debitis
-      facilis expedita iste atque corrupti, officia magni dicta quibusdam
-      soluta.
-    </p>
-
-    <h3>My Tech Stack</h3>
-
-    <img src="html.png" alt="Photo of dog" height="100" />
-    <img src="css.png" alt="Photo of dog" height="100" />
-    <img src="js.png" alt="Photo of dog" height="100" />
-
-    <h3>My Skills and Qualities</h3>
-
-    <ul>
-      <li>Amazing designer</li>
-      <li>Great problem solver</li>
-      <li>Quick learner</li>
-      <li>Hard worker</li>
-    </ul>
-
-    <h2>Contact Me</h2>
-
-    <form action="">
-      <label for="date">Today's date:</label>
-      <input type="date" id="date" /> <br /><br />
-      <label for="name-input">Full name:</label>
-      <input type="text" id="name-input" />
-      <br />
-      <br />
-      <label for="email-input">Email:</label>
-      <input type="email" id="email-input" />
-      <br />
-      <br />
-      <label for="phone-input">Phone:</label>
-      <input type="phone" id="phone-input" />
-      <br />
-      <br />
-      <label for="select">Where are you from?</label>
-      <select>
-        <option>Atlanta</option>
-        <option>Boston</option>
-        <option>Chicago</option>
-        <option>Detroit</option>
-        <option>Los Angeles</option>
-        <option>Miami</option>
-        <option>New York</option>
-        <option>Phoenix</option>
-      </select>
-      <br />
-      <br />
-      <p>What qualities are you looking for?</p>
-      <input type="checkbox" id="checkbox-1" />
-      <label for="checkbox-1">Amazing designer</label>
-      <br />
-      <input type="checkbox" id="checkbox-2" />
-      <label for="checkbox-2">Great problem solver</label>
-      <br />
-      <input type="checkbox" id="checkbox-3" />
-      <label for="checkbox-3">Quick learner</label>
-      <br />
-      <input type="checkbox" id="checkbox-4" />
-      <label for="checkbox-4">Hard worker</label>
-      <br />
-      <br />
-      <p>Which is the most important?</p>
-      <input type="radio" id="radio-1" name="most-important-quality" />
-      <label for="radio-1">Amazing designer</label>
-      <br />
-      <input type="radio" id="radio-2" name="most-important-quality" />
-      <label for="radio-2">Great problem solver</label>
-      <br />
-      <input type="radio" id="radio-3" name="most-important-quality" />
-      <label for="radio-3">Quick learner</label>
-      <br />
-      <input type="radio" id="radio-4" name="most-important-quality" />
-      <label for="radio-4">Hard worker</label>
-      <br />
-      <br />
-      <label for="range">How much do you want to hire me?</label>
-      <input type="range" id="range" />
-      <br />
-      <br />
-      <label for="textarea">Please explain:</label>
-      <br />
-      <textarea cols="40" rows="10" id="textarea"></textarea>
-      <br /><br />
-      <input type="reset" value="Reset" />
-      <br /><br />
-      <input type="button" value="Submit" />
-    </form>
+      <section id="projects" class="adjust-offset">
+        <h3>My Projects</h3>
+        <div class="project">
+          <img src="google-screenshot.png" alt="" />
+          <div class="project-details">
+            <h2 class="project-details__header">Project Name</h2>
+            <p class="project-details__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi excepturi eligendi itaque quaerat similique impedit molestias corporis perspiciatis</p>
+            <div class="project-details__links">
+              <a href=""><i class="fa-solid fa-link"></i></a>
+              <a href=""><i class="fa-brands fa-github"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="project">
+          <img src="google-screenshot.png" alt="" />
+          <div class="project-details">
+            <h2 class="project-details__header">Project Name</h2>
+            <p class="project-details__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi excepturi eligendi itaque quaerat similique impedit molestias corporis perspiciatis</p>
+            <div class="project-details__links">
+              <a href=""><i class="fa-solid fa-link"></i></a>
+              <a href=""><i class="fa-brands fa-github"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="project">
+          <img src="google-screenshot.png" alt="" />
+          <div class="project-details">
+            <h2 class="project-details__header">Project Name</h2>
+            <p class="project-details__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi excepturi eligendi itaque quaerat similique impedit molestias corporis perspiciatis</p>
+            <div class="project-details__links">
+              <a href=""><i class="fa-solid fa-link"></i></a>
+              <a href=""><i class="fa-brands fa-github"></i></a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer-content max-width">
+        <a href="#">
+          <div class="footer__name-container">
+            <h1 class="footer__name my-name">Jared Weiss</h1>
+            <div class="footer__back-to-top-container">
+              <div class="up-arrow">&#8593</div>
+              <span>Top</span>
+            </div>
+          </div>
+        </a>
+        <div class="nav">
+          <a href="#about-me">About me</a>
+          <a href="#projects">Projects</a>
+          <a href="mailto:jared@techsweet.io">Contact me</a>
+        </div>
+      </div>
+    </footer>
+    <script src="app.js"></script>
   </body>
 </html>
