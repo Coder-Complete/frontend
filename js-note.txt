@@ -1,0 +1,6 @@
+next
+- make shopping cart project from figma
+- transition the solution to a data approach
+- dealing with data / async / apis
+- constructors / prototypes
+  - constructor methods (e.g. Array.from())
